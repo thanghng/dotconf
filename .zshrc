@@ -20,7 +20,7 @@ plugins=(git zsh-syntax-highlighting zsh-autosuggestions)
 source $ZSH/oh-my-zsh.sh
 
 # ZSH autosuggestions config
-ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=250'
+ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=white'
 
 # User configuration
 
