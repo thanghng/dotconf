@@ -1,5 +1,5 @@
 # If you come from bash you might have to change your $PATH.
-export PATH=$PATH:$HOME/.gem/ruby/2.7.0/bin
+export PATH=$PATH:$HOME/.gem/ruby/2.7.0/bin:$HOME/.config/composer/vendor/bin
 
 # Path to your oh-my-zsh installation.
 export ZSH="/home/xiaoyu/.oh-my-zsh"
@@ -20,7 +20,7 @@ plugins=(git zsh-syntax-highlighting zsh-autosuggestions)
 source $ZSH/oh-my-zsh.sh
 
 # ZSH autosuggestions config
-ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=white'
+# ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=white'
 
 # User configuration
 
