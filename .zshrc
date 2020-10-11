@@ -33,5 +33,5 @@ alias edit="nvim"
 alias i3config="edit ~/.config/i3/config"
 alias ls="colorls --sort-dirs"
 alias lc="colorls --tree"
-alias ll="colorls -l --sort-dirs"
+alias ll="colorls -la --sort-dirs"
 alias dotconf='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
