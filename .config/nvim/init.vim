@@ -4,6 +4,7 @@ call plug#begin()
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'airblade/vim-gitgutter'
 Plug 'tpope/vim-surround'
+Plug 'editorconfig/editorconfig-vim'
 
 " Initialize plugin system
 call plug#end()
