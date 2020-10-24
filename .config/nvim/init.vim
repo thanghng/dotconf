@@ -5,6 +5,10 @@ Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'airblade/vim-gitgutter'
 Plug 'tpope/vim-surround'
 Plug 'editorconfig/editorconfig-vim'
+Plug 'morhetz/gruvbox'
+Plug 'prettier/vim-prettier', {
+  \ 'do': 'yarn install',
+  \ 'for': ['javascript', 'typescript', 'css', 'less', 'scss', 'json', 'graphql', 'markdown', 'vue', 'yaml', 'html'] }
 
 " Initialize plugin system
 call plug#end()
@@ -23,6 +27,10 @@ set et
 set cul
 set noswf
 set wmnu
+
+" color scheme
+" set background=dark
+autocmd vimenter * colorscheme gruvbox
 
 
 " Disable comment
