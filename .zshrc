@@ -36,3 +36,4 @@ alias lc="colorls --tree"
 alias ll="colorls -l --sort-dirs"
 alias l="colorls -la --sort-dirs"
 alias dotconf='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
+alias gpp='g++ -pedantic-errors -Wall -Wextra -Wsign-conversion -std=c++17'
