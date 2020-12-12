@@ -32,7 +32,6 @@ set wmnu
 " set background=dark
 autocmd vimenter * colorscheme gruvbox
 
-
 " Disable comment
 autocmd FileType * setlocal fo-=c fo-=r fo-=o
 
