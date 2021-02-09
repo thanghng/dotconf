@@ -1,5 +1,5 @@
 # If you come from bash you might have to change your $PATH.
-export PATH=$PATH:$HOME/.gem/ruby/2.7.0/bin:$HOME/.config/composer/vendor/bin
+export PATH=$PATH:$HOME/.gem/ruby/2.7.0/bin:$HOME/.config/composer/vendor/bin:/usr/share/flutter/bin
 
 # Path to your oh-my-zsh installation.
 export ZSH="/home/xiaoyu/.oh-my-zsh"
